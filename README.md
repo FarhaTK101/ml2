@@ -2,8 +2,8 @@
 
 ## Student Information
 
-**Name:** Nabeel T  
-**Register Number:** LTCR24CS075
+**Name:** Farha T K
+**Register Number:** TCR24CS027
 
 ---
 
@@ -362,62 +362,6 @@ The results show that the capabilities remain functionally related while their o
 
 ---
 
-# Project Structure
-
-```text
-Assignment-2-Vector-Embedding/
-│
-├── README.md
-├── .gitignore
-├── requirements.txt
-│
-├── src/
-│   ├── __init__.py
-│   ├── models.py
-│   ├── embedding.py
-│   ├── compatibility.py
-│   └── composition.py
-│
-├── data/
-│   └── dataset.json
-│
-├── experiments/
-│   └── run_all.py
-│
-├── results/
-│   ├── results.csv
-│   └── figures/
-│       ├── experiment_1.png
-│       ├── experiment_2.png
-│       ├── experiment_3.png
-│       ├── experiment_4.png
-│       └── experiment_5.png
-│
-└── report/
-    ├── generate_report.py
-    └── technical_report.pdf
-```
-
----
-
-# File Description
-
-| File / Folder | Description |
-|---|---|
-| `src/models.py` | Defines State, Goal, and Capability data models |
-| `src/embedding.py` | Implements state, goal, capability encoding and similarity |
-| `src/compatibility.py` | Implements precondition-effect and input-output compatibility |
-| `src/composition.py` | Implements capability composition |
-| `data/dataset.json` | Experimental states, goals, capabilities, constraints, resources, and operational attributes |
-| `experiments/run_all.py` | Runs all five experiments |
-| `results/results.csv` | Stores numerical experimental results |
-| `results/figures/` | Contains experiment result figures |
-| `report/generate_report.py` | Generates the technical report |
-| `report/technical_report.pdf` | Final technical report |
-| `requirements.txt` | Python dependencies |
-| `.gitignore` | Files excluded from Git |
-
----
 
 # Technologies Used
 
@@ -499,16 +443,7 @@ The experiment runner generates:
 results/results.csv
 ```
 
-and the five experiment figures:
 
-```text
-results/figures/
-├── experiment_1.png
-├── experiment_2.png
-├── experiment_3.png
-├── experiment_4.png
-└── experiment_5.png
-```
 
 ---
 
